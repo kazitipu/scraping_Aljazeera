@@ -1,0 +1,155 @@
+ERROR:root:
+Traceback (most recent call last):
+  File "app.py", line 6, in <module>
+    raise Exception
+Exception
+ERROR:root:Remote end closed connection without response
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 20, in retrieve_page
+    page=urlopen(self.__url)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 1320, in do_open
+    r = h.getresponse()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 35, in write_data_as_html
+    file.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 35, in write_data_as_html
+    file.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 35, in write_data_as_html
+    file.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:Remote end closed connection without response
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 20, in retrieve_page
+    page=urlopen(self.__url)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 1320, in do_open
+    r = h.getresponse()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 35, in write_data_as_html
+    file.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166955: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166955: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166955: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166955: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 167996: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 167996: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166975: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166975: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 167996: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 167996: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 167996: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 167996: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166975: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166975: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166885: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166885: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166885: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166885: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166885: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166885: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166863: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166863: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 166863: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Tipu\Desktop\scrapin_aljajeera\webscrap\wscrap.py", line 43, in read_data_as_html
+    self.__data = file.read()
+  File "C:\Users\Tipu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 166863: character maps to <undefined>
